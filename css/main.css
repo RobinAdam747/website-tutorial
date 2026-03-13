@@ -1,6 +1,5 @@
 body {
     font-family: 'Poppins';
-    background-color: aliceblue;
     margin: 0;
 }
 
@@ -42,6 +41,8 @@ body {
 
 .subtitle {
     font-family: 'Metamorphous';
+    color: #ffffff;
+
 }
 
 .navbar {
