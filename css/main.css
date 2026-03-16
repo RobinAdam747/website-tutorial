@@ -9,16 +9,12 @@ body {
 }
 
 .homeHeader {
-    background-image: url("../assets/img/homeHeader.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    
 }
 
 .blueBackground {
@@ -33,10 +29,9 @@ body {
 
 .title {
     font-family: TitleFont;
-    font-size: 96pt;
+    font-size: 60pt;
     color: #e9ad1c;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 0
 }
 
 .subtitle {
@@ -45,8 +40,35 @@ body {
 
 }
 
+.homeTitle {
+    width: 40%;
+    height: 50%;
+
+    /* padding: 10%;
+    margin-left: 50%;
+    margin-top: 65%; */
+}
+
+.homePage {
+    background-image: url("../assets/img/homeHeader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .navbar {
+    background-color: #ffffffb1;
+    border-radius: 20px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.navContainer {
+    padding: 3%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
