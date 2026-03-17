@@ -42,7 +42,47 @@
 
     </header>
 
+    <section class="contactSection">
+        <div class="contactContainer">
 
+        </div>
+
+        <!-- Form for contact us -->
+        <div class="contactForm">
+            <form>
+                <div class="formElement">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="formElement">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="formElement">
+                    <label for="students">Number of Students</label>
+                    <input type="number" id="students" name="students" min="1" max="50">
+                </div>
+                <div class="formElement">
+                    <label for="visit">Preferred Visit Date</label>
+                    <input type="date" id="visit" name="visit">
+                </div>
+                <div class="formElement">
+                    <label for="topic">Topic of Interest</label>
+                    <select id="topic" name="topic">
+                        <option value="">Select a value</option>
+                        <option value="productivity">Study Productivity</option>
+                    </select>
+                </div>
+
+                <div class="formElement">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="something about yapping to the company" required></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
 
     <footer>
 
